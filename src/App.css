@@ -2,37 +2,213 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-heading {
+  font-size: 3vw;
+  margin-left: 13vw;
+  padding-bottom: 2vh;
+  margin-top: 3vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-fluid img {
+  width: 35px;
+  border-radius: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login-input {
+  width: 35vw;
+}
+
+.login,
+.sign,
+.add-note-box {
+  margin-left: 13vw;
+}
+
+.login-btn {
+  margin-left: 13vw;
+}
+
+.add-note-btn {
+  margin-left: 13vw;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.sign-btn {
+  margin-left: 5vw;
+}
+
+.Note-heading,
+.Add-heading {
+  padding-left: 13vw;
+}
+
+.warning-note {
+  padding-left: 13vw;
+}
+
+.alert {
+  position: fixed;
+  height: 20px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  margin-top: 55px;
+  font-size: 15px;
+  width: 100%;
+}
+
+.login-text,
+.sign-text,
+.Note-heading,
+.Add-heading {
+  font-size: 1.7rem;
+}
+
+#emailHelp {
+  font-size: 0.6rem;
+  margin-left: 7px;
+}
+
+.form-check {
+  margin-bottom: -0.875rem;
+}
+
+.note-item {
+  margin-left: 1.5vw;
+}
+
+.notes-box {
+  margin-left: 4vw;
+}
+
+.material-symbols-outlined {
+  cursor: pointer;
+  width: 20px;
+  color: #000;
+}
+
+.modal-dialog{
+  position: fixed;
+  top: -4%;
+  left: 30%;
+}
+
+.modal-title{
+  margin-left: 10vw;
+  padding-left: 5vw;
+  padding-right: 12vw;
+}
+
+.edit-btn {
+  text-decoration: none;
+}
+
+.text {
+  margin-top: 2vh;
+  margin-bottom: 7vh;
+  margin-left: 13vw;
+  font-size: large;
+  font-style: oblique;
+}
+
+.signupform {
+  margin-left: 12vw;
+  margin-top: 3vh;
+}
+
+.firstname {
+  margin: 0 0 3vh 2vw;
+}
+
+.lastname {
+  margin: 0 0 3vh -20vw;
+}
+
+.username {
+  margin: 0 0 3vh 2vw;
+  width: 49%;
+}
+
+.sign_email {
+  margin: 0 0 3vh 2vw;
+}
+
+.password {
+  margin: 0 0 3vh 2vw;
+}
+
+.password_text {
+  font-size: 0.6rem;
+  margin-left: 2vw;
+}
+
+.sign-sign-btn {
+  margin-top: 2vh;
+  margin-left: 1vw;
+}
+
+.sign-login-btn {
+  margin-top: 2vh;
+  margin-left: 3vw;
+}
+
+.eye-btn {
+  margin-top: 31.5px;
+  font-size: 1px;
+  padding: 0.4rem 0.6rem 0.4rem 0.5rem;
+}
+
+.eye-password {
+  display: flex;
+  flex-direction: row;
+}
+
+.eye-btn-sign {
+  margin-top: 39.5px;
+  font-size: 1px;
+  padding: 0.4rem 0.6rem 0.4rem 0.5rem;
+}
+
+.footer {
+  display: flex;
+  position: fixed;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  bottom: 0;
+  font-size: 1.6vw;
+  width: 100vw;
+  padding-top: 2vh;
+  max-height: 9vh;
 }
 
-.App-link {
-  color: #61dafb;
+.copyright{
+  font-size: 1.6vw;
+  /* position: fixed;
+  bottom: 3%;
+  left: 38%; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-foot{
+  position: fixed;
+  right: 0;
+  padding-top: 1vh;
+  font-size: 1.3vw;
+  padding-right: 2vw;
+  text-decoration: none;
+}
+
+.home-foot{
+  position: fixed;
+  right: 5%;
+  padding-top: 1vh;
+  font-size: .8rem;
+  padding-right: 3.5vw;
+  text-decoration: none;
+}
+.user-detail{
+  margin-left: 1vw;
+  margin-top: -2.5vh;
+}
+
+.offcanvas{
+  max-width: 25vw;
 }
